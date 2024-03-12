@@ -23,4 +23,4 @@ To evaluate the performance of the algorithms, the researchers used accuracy, se
 
 The results of the study demonstrated that across three test-train ratios each algorithm had an accuracy greater than 80 percent. The Neural network performed the best across all models. The full list of performance metrics can be found in the table below.
 
-<img width="458" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/1fa97bd2-71cc-4bf4-a640-79f50ae966ae">
+<img width="300" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/1fa97bd2-71cc-4bf4-a640-79f50ae966ae">
