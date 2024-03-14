@@ -1,6 +1,7 @@
 # Predicting Heart Disease Using Machine Learning Algorithms 
 
 <img src='https://github.com/CJTAYL/heart_disease/assets/64110892/1047f551-bfda-4bc5-b8fc-63ebc2230f96' width='400' height='400' />
+*Image by DALL-E*
 
 ## Executive Summary 
 Four machine learning algorithms were used to predict heart disease in a set of patients. The algorithms used were (a) Logistic regression, (b) Random forest, (d) Support-vector machine, and (e) k-Nearest neighbor. All models were built with Scikit-learn. The models were evaluated using accuracy, sensitivity, F1 score, and Area Under the Curve - Receiver Operating Characteristic (AUC-ROC). The results of the project indicated that logistic regression was the best performing algorithm. 
