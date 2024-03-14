@@ -53,7 +53,10 @@ Four ML algorithms were used in the current study. The algorithms used were (a) 
 ## Evaluation
 The evaluation metrics used included accuracy, sensitivity, F1 score, and AUC-ROC. A table and plots with the evaluation metrics are presented below.
 
-<img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/6844f1cb-4ade-42dd-b084-c07aad902bac">
+60:40 Train-Test Split
+
+![image](https://github.com/CJTAYL/heart_disease/assets/64110892/66cd7fca-4002-48c0-af29-c81d332f3ea2)
+
 
 Based on the evaluation metrics, all models performed similarly and had an accuracy greater than .80, The Logistic Regression algorithm performed the best. In addition to being tied for the highest mean and F1 score, it scored the highest on two of the four individual metrics.
 
