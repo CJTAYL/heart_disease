@@ -61,6 +61,9 @@ The evaluation metrics used included accuracy, sensitivity, F1 score, and AUC-RO
 
 <img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/bacdb8f1-ee6c-49df-94b8-edc75af83948">
 
+80:20 Train-Test Split 
+
+<img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/135ae095-d193-4db8-bd9c-79ac78a666db">
 
 Based on the evaluation metrics, all models performed similarly and had an accuracy greater than .80, The Logistic Regression algorithm performed the best. In addition to being tied for the highest mean and F1 score, it scored the highest on two of the four individual metrics.
 
