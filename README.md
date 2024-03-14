@@ -45,7 +45,7 @@ Correlations between the variables were examined using a heatmap, which is displ
 
 In the original study, Akella and Akella used an absolute value of 0.5 to determine if two variables were correlated. Based on a reading of the heatmap included in their study, there were two correlations that met or surpassed the 0.5 threshold. In the current study, there was one correlation with a value of 0.5 or higher. Similar to the original study, it appears that the use of ML algorithms with the combined dataset is appropriate. 
 
-After examining the heatmap, the dataset was divided into training and testing sets using three splits
+After examining the heatmap, the dataset was divided into training and testing sets using three splits:
 - 60:40
 - 70:30
 - 80:20 
