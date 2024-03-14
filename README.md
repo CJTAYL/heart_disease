@@ -1,6 +1,7 @@
 # Predicting Heart Disease Using Machine Learning Algorithms 
 
 <img src='https://github.com/CJTAYL/heart_disease/assets/64110892/1047f551-bfda-4bc5-b8fc-63ebc2230f96' width='400' height='400' />
+
 *Image by DALL-E*
 
 ## Executive Summary 
