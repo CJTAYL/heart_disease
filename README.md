@@ -31,27 +31,30 @@ Based on the results of the study, the authors determined that the Neural networ
 Although the work of Akella and Akella was beneficial to the medical and data science communities, their study used one relatively small dataset (i.e., approximately 300 patients). To expand upon their work, their procedures should be replicated using other, larger datasets. 
 
 ## Proposed Work
-The current project was a partial replication of the procedures used by Akella and Akella using a larger dataset. Specifically, the “Hungary” dataset from the “University of California Irvine Heart Disease Dataset” was combined with the “Cleveland” dataset to create a subject pool of 596 unique patients. The combined dataset was evaluated using four ML algorithms: Logistic Regression, Random Forest, Support-Vector Machines, and k-Nearest neighbor.
+The current project was a partial replication of the procedures used by Akella and Akella. Specifically, the “Cleveland” dataset from the “University of California Irvine Heart Disease Dataset” was combined with the “Cleveland” dataset. The combined dataset was evaluated using four ML algorithms: Logistic Regression, Random Forest, Support-Vector Machines, and k-Nearest neighbor.
 
 ### Tools
 The analysis used the Python programming language and the following packages: (a) Pandas, (b) NumPy, (c) Matplotlib, (d) Seaborn, (e) Scikit-learn, and (f) SciPy.
 
 ### Exploratory Data Analysis
-Prior to combining the “Cleveland” and “Hungary” datasets, duplicate rows were removed, and missing values were replaced with column medians. After combining the datasets, the numeric variables were normalized, and the target variable (presence/absence of CD) was converted from a 5-level factor (0-4) to a 2-level factor (0, 1).
+Duplicate rows were removed and missing values were replaced with column medians. After combining the datasets, the numeric variables were normalized, and the target variable (presence/absence of CD) was converted from a 5-level factor (0-4) to a 2-level factor (0, 1).
 
 Correlations between the variables were examined using a heatmap, which is displayed below. 
 
-<img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/5632b348-4caa-434e-9e22-979cf1c1d10c">
+[insert image] 
 
 In the original study, Akella and Akella used an absolute value of 0.5 to determine if two variables were correlated. Based on a reading of the heatmap included in their study, there were two correlations that met or surpassed the 0.5 threshold. In the current study, there was one correlation with a value of 0.5 or higher. Similar to the original study, it appears that the use of ML algorithms with the combined dataset is appropriate. 
 
-After examining the heatmap, the dataset was divided into training and testing sets using an 80:20 split. 
+After examining the heatmap, the dataset was divided into training and testing sets using three splits
+- 60:40
+- 70:30
+- 80:20 
 
 ### Machine Learning Algorithms
 Four ML algorithms were used in the current study. The algorithms used were (a) Logistic regression, (b) Random forest, (d) Support-vector machine, and (e) k-Nearest neighbor. All models were built with Scikit-learn. The specifics attributes of the algorithms were determined by the procedures outlined by Akella and Akella.
 
 ## Evaluation
-The evaluation metrics used included accuracy, sensitivity, F1 score, and AUC-ROC. A table and plots with the evaluation metrics are presented below.
+The evaluation metrics used included accuracy, sensitivity, F1 score, and AUC-ROC. A tables with the evaluation metrics are presented below.
 
 60:40 Train-Test Split
 
