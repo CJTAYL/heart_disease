@@ -7,7 +7,7 @@
 ## Executive Summary 
 Four machine learning algorithms were used to predict heart disease in a set of patients. The algorithms used were (a) Logistic regression, (b) Random forest, (d) Support-vector machine, and (e) k-Nearest neighbor. All models were built with Scikit-learn. The models were evaluated using accuracy, sensitivity, F1 score, and Area Under the Curve - Receiver Operating Characteristic (AUC-ROC). The results of the project indicated that the split of the data impacted the performance of the algorithm. When a 60:40 split was used, logistic regression performed the best. When a 70:30 split was used, support-vector machines performed the best. When an 80:20 split was used, k-nearest neighbors performed the best. When performance across all splits was examined, logistic regression performed the best.  
 
-## Structure of Repository (needs updating)
+## Structure of Repository
 ```
 ├── .gitignore
 ├── LICENSE
