@@ -9,19 +9,21 @@ Four machine learning algorithms were used to predict heart disease in a set of 
 
 ## Structure of Repository (needs updating)
 ```
-├── data
-├── notebook
-├── Python.gitignore
+├── .gitignore
+├── LICENSE
+├── README.md
 ├── README.md
 ├── data_cleaning.py
-├── data_collection.py
+├── data_retrieval.py
 ├── data_review.py
+├── eda.ipynb
 ├── evaluation.py
-├── kmeans.py
-├── main.py
-├── pca.py
+├── experiment_60_40.ipynb
+├── experiment_70_30.ipynb
+├── experiment_80_20.ipynb
+├── mydata.pkl
 ├── requirements.txt
-└── seeds_EDA.ipynb
+└── visualizations.py
 ```
 
 ## Abstract
