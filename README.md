@@ -75,21 +75,24 @@ Four ML algorithms were used in the current study. The algorithms used were (a) 
 ## Evaluation
 The evaluation metrics used included accuracy, sensitivity, F1 score, and AUC-ROC. To produce a single metric to compare the models, the average of sensitivity, F1 score, and AUC-ROC was calculated for each model. Accuracy was not included in the average to remain consistent with the procedures used by Akella and Akella (2021). A tables with the evaluation metrics are presented below.
 
-60:40 Train-Test Split
+### 60:40 Train-Test Split
 
 <img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/66cd7fca-4002-48c0-af29-c81d332f3ea2">
 
+
 After calculating the average for sensitivity, F1 score, and AUC-ROC, logistic regression had the highest value with 82.33.
 
-70:30 Train-Test Split
+### 70:30 Train-Test Split
 
 <img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/bacdb8f1-ee6c-49df-94b8-edc75af83948">
 
+
 After calculating the average for sensitivity, F1 score, and AUC-ROC, support-vector machine had the highest value with 77.33.
 
-80:20 Train-Test Split 
+### 80:20 Train-Test Split 
 
 <img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/135ae095-d193-4db8-bd9c-79ac78a666db">
+
 
 After calculating the average for sensitivity, F1 score, and AUC-ROC, k-nearest neighbors had the highest value with 76.67.
 
