@@ -5,7 +5,7 @@
 *Image by DALL-E*
 
 ## Executive Summary 
-Four machine learning algorithms were used to predict heart disease in a set of patients. The algorithms used were (a) Logistic regression, (b) Random forest, (d) Support-vector machine, and (e) k-Nearest neighbor. All models were built with Scikit-learn. The models were evaluated using accuracy, sensitivity, F1 score, and Area Under the Curve - Receiver Operating Characteristic (AUC-ROC). The results of the project indicated that k-Nearest neighbor was the best performing algorithm. 
+Four machine learning algorithms were used to predict heart disease in a set of patients. The algorithms used were (a) Logistic regression, (b) Random forest, (d) Support-vector machine, and (e) k-Nearest neighbor. All models were built with Scikit-learn. The models were evaluated using accuracy, sensitivity, F1 score, and Area Under the Curve - Receiver Operating Characteristic (AUC-ROC). The results of the project indicated that the split of the data impacted the performance of the algorithm. When a 60:40 split was used, logistic regression performed the best. When a 70:30 split was used, support-vector machines performed the best. When an 80:20 split was used, k-nearest neighbors performed the best. When performance across all splits was examined, logistic regression performed the best.  
 
 ## Structure of Repository (needs updating)
 ```
@@ -73,26 +73,32 @@ After examining the heatmap, the dataset was divided into training and testing s
 Four ML algorithms were used in the current study. The algorithms used were (a) Logistic regression, (b) Random forest, (d) Support-vector machine, and (e) k-Nearest neighbor. All models were built with Scikit-learn. The specifics attributes of the algorithms were determined by the procedures outlined by Akella and Akella.
 
 ## Evaluation
-The evaluation metrics used included accuracy, sensitivity, F1 score, and AUC-ROC. A tables with the evaluation metrics are presented below.
+The evaluation metrics used included accuracy, sensitivity, F1 score, and AUC-ROC. To produce a single metric to compare the models, the average of sensitivity, F1 score, and AUC-ROC was calculated for each model. Accuracy was not included in the average to remain consistent with the procedures used by Akella and Akella (2021). A tables with the evaluation metrics are presented below.
 
 60:40 Train-Test Split
 
 <img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/66cd7fca-4002-48c0-af29-c81d332f3ea2">
 
+After calculating the average for sensitivity, F1 score, and AUC-ROC, logistic regression had the highest value with 82.33.
+
 70:30 Train-Test Split
 
 <img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/bacdb8f1-ee6c-49df-94b8-edc75af83948">
+
+After calculating the average for sensitivity, F1 score, and AUC-ROC, support-vector machine had the highest value with 77.33.
 
 80:20 Train-Test Split 
 
 <img width="350" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/135ae095-d193-4db8-bd9c-79ac78a666db">
 
-Based on the evaluation metrics, all models performed similarly and had an accuracy greater than .80, The Logistic Regression algorithm performed the best. In addition to being tied for the highest mean and F1 score, it scored the highest on two of the four individual metrics.
+After calculating the average for sensitivity, F1 score, and AUC-ROC, k-nearest neighbors had the highest value with 76.67.
+
+When examining the metrics across all train/test splits, logistic regression had the highest overall average with a value of 78.33.
 
 ## Discussion 
 Project tasks included (a) exploratory data analysis, (b) splitting the data into training and testing sets, (c) construction of ML algorithms, (d) model evaluation, (e) summarizing results, and (f) comparison of study results. The tasks were completed within the allotted time frame and no modifications were required.  
 
-One potential challenge that was encountered was the large number of missing values. Specifically, there were 768 missing values or approximately 9% of the dataset; most missing values were from the “Hungary” dataset. 
+One potential challenge that was encountered was the size of the dataset.
 
 During the completion of this project, I deepened my understanding of evaluation metrics and learned more about the running time of different ML algorithms. Of the four algorithms included, the Random Forest model had the longest running time. Although the model took longer to run than the other evaluated models, the difference should not be significant enough to deter people from using the algorithm in the future. 
 
@@ -103,7 +109,7 @@ The results of the current study appear to be similar to those reported by Akell
 
 Although a full comparison of models would be beneficial to the field, future studies focused on the use of ML in healthcare may benefit from only including algorithms that can be deconstructed, explained to people without formal training in data science easily, and are not computationally expensive. 
 
-Specifically, instead of focusing on the use of a Neural network in medicine, it may be more beneficial to focus on refinements to more accessible models (like Logistic Regression), which would allow physicians and other healthcare professionals to explain the model to their patients, which may promote wider adoption of the technology. 
+Specifically, instead of focusing on the use of a neural network in medicine, it may be more beneficial to focus on refinements to more accessible models (like Logistic Regression), which would allow physicians and other healthcare professionals to explain the model to their patients, which may promote wider adoption of the technology. 
 
 ## References
 [1] Centers for Disease Control and Prevention, 2023. Leading causes of death. https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm 
