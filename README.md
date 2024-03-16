@@ -60,9 +60,10 @@ Duplicate rows were removed and missing values were replaced with column medians
 
 Correlations between the variables were examined using a heatmap, which is displayed below. 
 
-[insert image] 
+<img width="450" alt="image" src="https://github.com/CJTAYL/heart_disease/assets/64110892/331450a4-40df-4cd5-a6bf-97504a42da22">
 
-In the original study, Akella and Akella used an absolute value of 0.5 to determine if two variables were correlated. Based on a reading of the heatmap included in their study, there were two correlations that met or surpassed the 0.5 threshold. In the current study, there was one correlation with a value of 0.5 or higher. Similar to the original study, it appears that the use of ML algorithms with the combined dataset is appropriate. 
+
+In the original study, Akella and Akella used an absolute value of 0.5 to determine if two variables were correlated. Based on a reading of the heatmap included in their study, there were two correlations that met or surpassed the 0.5 threshold. In the current study, there were no correlations with a value of 0.5 or higher. Similar to the original study, it appears that the use of ML algorithms with the combined dataset is appropriate. 
 
 After examining the heatmap, the dataset was divided into training and testing sets using three splits:
 - 60:40
