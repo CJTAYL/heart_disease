@@ -21,6 +21,7 @@ Four machine learning algorithms were used to predict heart disease in a set of 
 ├── experiment_60_40.ipynb
 ├── experiment_70_30.ipynb
 ├── experiment_80_20.ipynb
+├── main.py
 ├── mydata.pkl
 ├── requirements.txt
 └── visualizations.py
