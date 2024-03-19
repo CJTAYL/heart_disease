@@ -12,7 +12,6 @@ Four machine learning algorithms were used to predict heart disease in a set of 
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-├── README.md
 ├── data_cleaning.py
 ├── data_retrieval.py
 ├── data_review.py
@@ -26,6 +25,11 @@ Four machine learning algorithms were used to predict heart disease in a set of 
 ├── requirements.txt
 └── visualizations.py
 ```
+
+- Code in `main.py` creates best performing model and returns the evaluation metrics
+- Code in `eda.ipynb` retrieves, cleans, and visualizes the data and creates a pickle file of the cleaned data
+- Code in `experiment_X_Y.ipynb` examines the models performance across various test-train splits, where X = train percentage and Y = test percentage
+- Code in remaining `.py` files contains helper functions used to complete the project
 
 ## Abstract
 According to the Centers for Disease Control and Prevention (CDC), heart or coronary disease (CD) is the leading cause of death in the United States. However, with early diagnosis, current therapies are capable of significantly improving patient outcomes. One way to facilitate early diagnosis is through increased screenings. By providing medical professionals with easy-to-use tools, targeted screening could be implemented more frequently, which should facilitate the onset of therapy. The purpose of this research project was to demonstrate how a screening tool for CD can be built using basic data mining methods and publicly available datasets.
